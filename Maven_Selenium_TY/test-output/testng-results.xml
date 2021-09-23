@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="7" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-09-23T19:00:51 IST" name="Suite" finished-at="2021-09-23T19:04:07 IST" duration-ms="195890">
+    <groups>
+      <group name="RegressionSuite">
+        <method signature="TC_17_DuplicateContactTest.duplicateContactsTest()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_17_DuplicateContactTest@2a7f1f10]" name="duplicateContactsTest" class="com.crm.autodesk.ContactsTest.TC_17_DuplicateContactTest"/>
+        <method signature="TC_18_SendMailSingleContactTest.sendMailSingleContactTest()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_18_SendMailSingleContactTest@4145bad8]" name="sendMailSingleContactTest" class="com.crm.autodesk.ContactsTest.TC_18_SendMailSingleContactTest"/>
+      </group> <!-- RegressionSuite -->
+      <group name="SmokeSuite">
+        <method signature="TC_16_LastViewedContactsTest.viewContactsTest()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_16_LastViewedContactsTest@298a5e20]" name="viewContactsTest" class="com.crm.autodesk.ContactsTest.TC_16_LastViewedContactsTest"/>
+      </group> <!-- SmokeSuite -->
+    </groups>
+    <test started-at="2021-09-23T19:00:51 IST" name="Test" finished-at="2021-09-23T19:04:07 IST" duration-ms="195890">
+      <class name="com.crm.autodesk.ContactsTest.TC_17_DuplicateContactTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_17_DuplicateContactTest@2a7f1f10]" started-at="2021-09-23T19:03:18 IST" name="launchBrowser" finished-at="2021-09-23T19:03:26 IST" duration-ms="8673" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logIntoApp()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_17_DuplicateContactTest@2a7f1f10]" started-at="2021-09-23T19:03:26 IST" name="logIntoApp" finished-at="2021-09-23T19:03:32 IST" duration-ms="5531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIntoApp -->
+        <test-method signature="duplicateContactsTest()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_17_DuplicateContactTest@2a7f1f10]" started-at="2021-09-23T19:03:32 IST" name="duplicateContactsTest" finished-at="2021-09-23T19:04:04 IST" duration-ms="31851" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- duplicateContactsTest -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_17_DuplicateContactTest@2a7f1f10]" started-at="2021-09-23T19:04:04 IST" name="logoutFromApp" finished-at="2021-09-23T19:04:06 IST" duration-ms="2555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_17_DuplicateContactTest@2a7f1f10]" started-at="2021-09-23T19:04:06 IST" name="closeBrowser" finished-at="2021-09-23T19:04:07 IST" duration-ms="469" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.autodesk.ContactsTest.TC_17_DuplicateContactTest -->
+      <class name="com.crm.autodesk.ContactsTest.TC_16_LastViewedContactsTest">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_16_LastViewedContactsTest@298a5e20]" started-at="2021-09-23T19:02:13 IST" name="launchBrowser" finished-at="2021-09-23T19:02:44 IST" duration-ms="30867" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logIntoApp()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_16_LastViewedContactsTest@298a5e20]" started-at="2021-09-23T19:02:44 IST" name="logIntoApp" finished-at="2021-09-23T19:02:54 IST" duration-ms="9611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIntoApp -->
+        <test-method signature="viewContactsTest()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_16_LastViewedContactsTest@298a5e20]" started-at="2021-09-23T19:02:54 IST" name="viewContactsTest" finished-at="2021-09-23T19:03:12 IST" duration-ms="18039" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- viewContactsTest -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_16_LastViewedContactsTest@298a5e20]" started-at="2021-09-23T19:03:12 IST" name="logoutFromApp" finished-at="2021-09-23T19:03:16 IST" duration-ms="3902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_16_LastViewedContactsTest@298a5e20]" started-at="2021-09-23T19:03:16 IST" name="closeBrowser" finished-at="2021-09-23T19:03:18 IST" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.crm.autodesk.ContactsTest.TC_16_LastViewedContactsTest -->
+      <class name="com.crm.autodesk.ContactsTest.TC_18_SendMailSingleContactTest">
+        <test-method is-config="true" signature="connectDB()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_18_SendMailSingleContactTest@4145bad8]" started-at="2021-09-23T19:00:51 IST" name="connectDB" finished-at="2021-09-23T19:00:51 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- connectDB -->
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_18_SendMailSingleContactTest@4145bad8]" started-at="2021-09-23T19:00:51 IST" name="launchBrowser" finished-at="2021-09-23T19:01:14 IST" duration-ms="22320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="logIntoApp()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_18_SendMailSingleContactTest@4145bad8]" started-at="2021-09-23T19:01:14 IST" name="logIntoApp" finished-at="2021-09-23T19:01:30 IST" duration-ms="16625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logIntoApp -->
+        <test-method signature="sendMailSingleContactTest()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_18_SendMailSingleContactTest@4145bad8]" started-at="2021-09-23T19:01:30 IST" name="sendMailSingleContactTest" finished-at="2021-09-23T19:02:03 IST" duration-ms="32227" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sendMailSingleContactTest -->
+        <test-method is-config="true" signature="logoutFromApp()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_18_SendMailSingleContactTest@4145bad8]" started-at="2021-09-23T19:02:03 IST" name="logoutFromApp" finished-at="2021-09-23T19:02:07 IST" duration-ms="4360" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutFromApp -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_18_SendMailSingleContactTest@4145bad8]" started-at="2021-09-23T19:02:07 IST" name="closeBrowser" finished-at="2021-09-23T19:02:13 IST" duration-ms="6028" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="closeDB()[pri:0, instance:com.crm.autodesk.ContactsTest.TC_18_SendMailSingleContactTest@4145bad8]" started-at="2021-09-23T19:04:10 IST" name="closeDB" finished-at="2021-09-23T19:04:10 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDB -->
+      </class> <!-- com.crm.autodesk.ContactsTest.TC_18_SendMailSingleContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

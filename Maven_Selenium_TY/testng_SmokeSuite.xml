@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<groups>
+		<run>
+			<include name="SmokeSuite" />
+		</run>
+	</groups>
+	<test thread-count="5" name="Test" preserve-order="true">
+		<classes>
+			<class
+				name="com.crm.autodesk.ContactsTest.TC_19_CheckSendMailPopupTest" />
+			<class
+				name="com.crm.autodesk.ContactsTest.TC_18_SendMailSingleContactTest" />
+			<class
+				name="com.crm.autodesk.ContactsTest.TC_20_SendMailToMultipleContactTest" />
+			<class
+				name="com.crm.autodesk.ContactsTest.TC_16_LastViewedContactsTest" />
+			<class
+				name="com.crm.autodesk.ContactsTest.TC_17_DuplicateContactTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
